@@ -4,7 +4,7 @@ simple RESTful API for a social networking application
 
 ## Description
 
-For data management, the PostgreSQL DBMS is used in conjunction with SQLAlchemy. The application includes an OAuth 2.0 authorization and registration form. Redis is used to cache user reactions to posts.
+For data management, the PostgreSQL DBMS is used in conjunction with SQLAlchemy. The application includes an OAuth 2.0 authentication and registration form. Redis is used to cache user reactions to posts.
 
 ## Getting Started
 
