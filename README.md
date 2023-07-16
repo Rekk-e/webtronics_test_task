@@ -10,7 +10,7 @@ For data management, the PostgreSQL DBMS is used in conjunction with SQLAlchemy.
 
 Rename the .env_example file to .env
 
-Run docker-compose up --build in your project root directory
+Run sudo docker-compose up --build in your project root directory
 ```
-sudo docker-compose up -d --build
+sudo docker-compose up --build
 ```
