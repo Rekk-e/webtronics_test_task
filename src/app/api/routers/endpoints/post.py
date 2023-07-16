@@ -1,4 +1,3 @@
-
 from typing import Any, List
 
 from fastapi import APIRouter, Depends, HTTPException
@@ -14,13 +13,6 @@ from app.api.schemas.message import MessageResponse
 from app.api.utils.reactions import get_reactions
 
 router = APIRouter()
-
-from urllib.parse import quote
-
-@router.get("/encode_url")
-def test_router(url: str):
-    encoded_url = quote(url, safe="")
-    return encoded_url
 
 
 @router.post("", response_model=PostResponse, dependencies=[Depends(get_current_user)])
