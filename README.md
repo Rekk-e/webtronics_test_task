@@ -12,5 +12,5 @@ Rename the .env_example file to .env
 
 Run docker-compose up --build in your project root directory
 ```
-docker-compose up -d --build
+sudo docker-compose up -d --build
 ```
